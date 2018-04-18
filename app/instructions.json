@@ -1,0 +1,23 @@
+{
+    "instructions": [
+        {
+            "title": "Create React Native Project",
+            "description": "react-native init ReactReduxBoilerPlate"
+        },
+        {
+            "title": "Install Dependencies",
+            "description":
+                "In your project root, run npm install --save react-redux \nnpm install —save redux \nnpm install —save redux-thunk"
+        },
+        {
+            "title": "Create Folder Structure",
+            "description":
+                "In your project root create an 'app' folder. In the app folder create an 'actions' folder , a 'reducers' folder and a 'components' folder."
+        },
+        {
+            "title": "Create your first action",
+            "description":
+                "The action is a basic function called from the component whenever we want the whole state of the app to be changed. Our action creator is a simple function returning an object (the action itself)with a type attribute expressing what happened with the app.\nIn your actions folder create a js file 'index.js'"
+        }
+    ]
+}
